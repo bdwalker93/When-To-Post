@@ -5,7 +5,11 @@
   "repository": "https://github.com/bdwalker93/When-To-Post.git",
   "author": "Brett Walker <bdwalker93@yahoo.com>",
   "license": "MIT",
-  "scripts":{
-    "start": "node index.js"
+  "scripts": {
+    "start": "babel-node src"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
   }
 }
