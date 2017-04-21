@@ -1,0 +1,11 @@
+{
+  "name": "When-To-Post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bdwalker93/When-To-Post.git",
+  "author": "Brett Walker <bdwalker93@yahoo.com>",
+  "license": "MIT",
+  "scripts":{
+    "start": "node index.js"
+  }
+}
