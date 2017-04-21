@@ -6,7 +6,7 @@
   "author": "Brett Walker <bdwalker93@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src",
+    "start": "babel-node src/server/index.js",
     "test": "eslint src"
   },
   "devDependencies": {
@@ -19,5 +19,11 @@
     "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
     "eslint-plugin-react": "^6.9.0"
   },
-  "browserslist": ["> 1%"]
+  "browserslist": [
+    "> 1%"
+  ],
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.2"
+  }
 }
